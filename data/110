@@ -1,0 +1,301 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="title" content="Public Service Commissions of SAARC Member States" />
+        <title> South Asian Association For Regional Cooperation | Public Service Commissions of SAARC Member States</title>
+        <meta name="description" content="An official website of Saarc Secretariat"/>
+        <meta name="keywords" content="SAARC, saarc sec, nepal, saarc summit, india, bhutan, nepal news, South Asian Association, Saarc Countries"/>
+        <link href="http://www.saarc-sec.org/css/layout.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="http://www.saarc-sec.org/js/ui/themes/cupertino/jquery-ui-1.7.1.css" />
+        <link rel="stylesheet" href="http://www.saarc-sec.org/js/facebox/facebox.css" type="text/css"/>
+        <script type="text/javascript" src="http://www.saarc-sec.org/js/jquery-1.3.2.min.js"></script>
+        <script type="text/javascript" src="http://www.saarc-sec.org/js/jquery.validate.js"></script>
+        <script type="text/javascript" src="http://www.saarc-sec.org/js/jquery.form.js"></script>
+        <script type="text/javascript" src="http://www.saarc-sec.org/js/jquery.cycle.all.2.72.js"></script>
+        <script type="text/javascript" src="http://www.saarc-sec.org/js/jqueryUtils.js"></script>
+        <script type="text/javascript" src="http://www.saarc-sec.org/js/facebox/facebox.js"></script>
+        <!-- initialise Superfish -->
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('a[rel*=facebox]').facebox()
+                $("ul.sf-menu").superfish({
+                    animation: {height:'show'},   // slide-down effect without fade-in
+                    delay:     1200               // 1.2 second delay on mouseout
+                });
+                /**Font size increment & decrement**/
+                var fonSizeTarget = $('#ctrlContents *');
+                $('#incFontSize').click(function(){
+                    alterFontSize1(fonSizeTarget, 2);
+                });
+                $('#decFontSize').click(function(){
+                    alterFontSize1(fonSizeTarget, -2);
+                });
+                /** End Font Increment**/
+            });
+
+        </script>
+    </head>
+    <body>
+
+        <!--Wrapper starts here-->
+        <div id="wrapper">
+            <!--Header starts here-->
+            <div id="Header">
+                <a href="http://www.saarc-sec.org/">
+                    <h1></h1>
+                </a>
+                <div class="header-content">
+                    <div class="top-menu-demo">
+                        <div class="top-menu-bg-demo">
+                            <ul>
+                                <li><a href="http://www.saarc-sec.org/" title="Home">Home</a> | </li>
+                                <li><a href="http://www.saarc-sec.org/photo-gallery/">Photo Gallery</a> | </li>
+                                <li><a href="http://www.saarc-sec.org/Contacts/21/">Contact Us</a> | </li>
+                                <li><a href="http://www.saarc-sec.org/feedback/frmFeedback.php" title="Feedback" rel="facebox[.bolder]">Feedback</a> | </li>
+                                <li><a href="#">Sitemap</a> | </li>
+                                <li><a id="incFontSize" href="javascript:void(0);" title="Increment Font"> &nbsp; A+ </a><span>|</span></li>
+                                <li><a id="decFontSize" href="javascript:void(0);" title="Descrement Font"> &nbsp;A-</a><span>|</span></li>
+                                <li style="width:185px; text-align:right;">
+
+                                    <form action="http://www.saarc-sec.org/google-search.php" id="cse-search-box">
+                                        <input type="hidden" name="cx" value="016486770353124049068:a4obua9la_q" />
+                                        <input type="hidden" name="cof" value="FORID:10" />
+                                        <input type="hidden" name="ie" value="UTF-8" />
+                                        <input type="text" name="q" id="q" />
+                                        <input type="submit" name="sa" value="" class="arrow-btn-demo" size="75" />
+                                    </form>
+                                    <script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="countries">
+                        <ul>
+                            <li><span>Afghanistan</span> <br />
+                                <a href="http://www.saarc-sec.org/afghanistan/" title="Afghanistan"><img src="http://www.saarc-sec.org/images/flag1.jpg" width="44" height="28" alt="Afghanistan" title="Afghanistan" border="0" /></a></li>
+                            <li><span>Bangladesh</span> <br />
+                                <a href="http://www.saarc-sec.org/bangladesh/" title="Bangladesh"><img src="http://www.saarc-sec.org/images/flag2.jpg" width="43" height="28" alt="Bangladesh" title="Bangladesh" border="0" /></a></li>
+                            <li><span>Bhutan</span> <br />
+                                <a href="http://www.saarc-sec.org/bhutan/" title="Bhutan"><img src="http://www.saarc-sec.org/images/flag3.jpg" width="45" height="28" alt="Bhutan" title="Bhutan" border="0" /></a></li>
+                            <li><span>India</span> <br />
+                                <a href="http://www.saarc-sec.org/india/" title="India"><img src="http://www.saarc-sec.org/images/flag4.jpg" width="43" height="28" alt="India" title="India" border="0" /></a></li>
+                            <li><span>Maldives</span> <br />
+                                <a href="http://www.saarc-sec.org/maldives/" title="Maldives"><img src="http://www.saarc-sec.org/images/flag5.gif" width="43" height="28" alt="Maldives" title="Maldives" border="0" /></a></li>
+                            <li><span>Nepal</span> <br />
+                                <a href="http://www.saarc-sec.org/nepal/" title="Nepal"><img src="http://www.saarc-sec.org/images/flag6.jpg" width="22" height="28" alt="Nepal" title="Nepal" border="0" /></a></li>
+                            <li><span>Pakistan</span> <br />
+                                <a href="http://www.saarc-sec.org/pakistan/" title="Pakistan"><img src="http://www.saarc-sec.org/images/flag7.jpg" width="44" height="28" alt="Pakistan" title="Pakistan" border="0" /></a></li>
+                            <li><span>Sri Lanka</span> <br />
+                                <a href="http://www.saarc-sec.org/sri-lanka/" title="Sri Lanka"><img src="http://www.saarc-sec.org/images/flag8.jpg" width="44" height="28" alt="Sri Lanka" title="Sri Lanka" border="0" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--End of Header-->
+            <!--Container starts here-->
+            <div id="Container">
+                <!--Left Container starts here-->
+                <div class="left-container">
+<!-- advertisment starts-->
+    <!-- advertisment starts-->
+        <!-- advertisment ends-->
+
+ <div class="clear"></div>
+    <div class="left-container-detail">
+  <link rel="stylesheet" type="text/css" media="screen" href="http://www.saarc-sec.org/js/superfish/css/superfish.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.saarc-sec.org/js/superfish/css/superfish-vertical.css" />
+<script type="text/javascript" src="http://www.saarc-sec.org/js/superfish/js/hoverIntent.js"></script>
+<script type="text/javascript" src="http://www.saarc-sec.org/js/superfish/js/superfish.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+        $("ul.sf-menu").superfish({
+            animation: {height:'show'},   // slide-down effect without fade-in
+            delay:     1200               // 1.2 second delay on mouseout
+        });
+    });
+
+</script>
+<ul class="sf-menu sf-vertical"><li><a href="#"  >About SAARC</a><ul ><li><a href="http://www.saarc-sec.org/SAARC-Charter/5/"  >SAARC Charter</a></li><li><a href="http://www.saarc-sec.org/Charter-Day/6/"  >Charter Day</a><ul ><li><a href="http://www.saarc-sec.org/Charter-Day-2015/127/"  >Charter Day 2015</a></li><li><a href="http://www.saarc-sec.org/Charter-Day-2014/120/"  >Charter Day 2014</a></li><li><a href="http://www.saarc-sec.org/Charter-Day-2013/113/"  >Charter Day 2013</a></li><li><a href="http://www.saarc-sec.org/Charter-Day-2012/106/"  >Charter Day 2012</a></li><li><a href="http://www.saarc-sec.org/Charter-Day-2011/101/"  >Charter Day 2011</a></li><li><a href="http://www.saarc-sec.org/Charter-Day-2010/84/"  >Charter Day 2010</a><ul ><li><a href="http://www.saarc-sec.org/CHARTER-DAY-CELEBRATIONS/87/"  >CHARTER DAY CELEBRATIONS</a></li></ul></li></ul></li><li><a href="#"  >Charter Bodies</a><ul ><li><a href="http://www.saarc-sec.org/Council-of-Ministers/53/"  >Council of Ministers</a></li><li><a href="http://www.saarc-sec.org/Standing-Committee/54/"  >Standing Committee</a></li><li><a href="http://www.saarc-sec.org/Programming-Committee/124/"  >Programming Committee</a></li><li><a href="http://www.saarc-sec.org/Technical-Committees/72/"  >Technical Committees</a></li></ul></li><li><a href="http://www.saarc-sec.org/Other-Mechanisms/58/"  >Other Mechanisms</a><ul ><li><a href="http://www.saarc-sec.org/Working-Groups/77/"  >Working Groups</a></li></ul></li><li><a href="http://www.saarc-sec.org/Regional-Centers/12/"  >Regional Centers</a></li><li><a href="http://www.saarc-sec.org/Designated-SAARC-Decades/11/"  >Designated SAARC Decades</a></li><li><a href="http://www.saarc-sec.org/Designated-SAARC-Years/9/"  >Designated SAARC Years</a></li><li><a href="http://www.saarc-sec.org/Apex-and-Recognised-Bodies/14/"  >Apex and Recognised Bodies</a></li><li><a href="http://www.saarc-sec.org/Awards/17/"  >Awards</a><ul ><li><a href="http://www.saarc-sec.org/SAARC-Award/70/"  >SAARC Award</a></li><li><a href="http://www.saarc-sec.org/SAARC-Youth-Award/71/"  >SAARC Youth Award</a></li></ul></li><li><a href="http://www.saarc-sec.org/Cooperation-with-Observers/13/"  >Cooperation with Observers</a></li><li><a href="http://www.saarc-sec.org/Cooperation-with-Inter-Governmental-Organisations/16/"  >Cooperation with Inter-Governmental Organisations</a></li></ul></li>
+    <li class="current">
+
+        <a class="sf-with-ul" href="#">Areas of Cooperation<span class="sf-sub-indicator"> &#187;</span></a>
+        <ul><li><a href="http://www.saarc-sec.org/areaofcooperation/cat-detail.php?cat_id=44">Agriculture and Rural Development</a><ul><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=48">SAARC Veterinary Officers</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=26">Meeting of SAARC Agriculture/ Food Ministers</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=3">Technical Committee on Agriculture and Rural Development (TCARD)</a></li></ul></li><li><a href="http://www.saarc-sec.org/areaofcooperation/cat-detail.php?cat_id=57">Biotechnology</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/cat-detail.php?cat_id=47">Culture</a><ul><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=18">SAARC Agenda for Culture</a></li></ul></li><li><a href="http://www.saarc-sec.org/areaofcooperation/cat-detail.php?cat_id=45">Economic and Trade</a><ul><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=51">Economic and Trade Meetings - held/announced</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=50">Status Note on Eco and Fin Cooperation as on 22 January 2015</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=49">SAFTA TLP Notifications </a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=47">Cooperation in Standards </a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=46">SAARC Agreement on Trade in Services</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=45">Cooperation in Avoidance of Double Taxation</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=42">Customs Cooperation</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=41">SAARCSTAT</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=40">SAARC Trade Fairs</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=39">SCCI</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=36">SAFTA Protocol</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=35">Revised Sensitive Lists under SAFTA (Phase-II)</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=34"> SAARC Arbitration Council</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=5">South Asian Free Trade Area (SAFTA)</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=4">SAARC Preferential Trading Arrangement (SAPTA)</a></li></ul></li><li><a href="http://www.saarc-sec.org/areaofcooperation/cat-detail.php?cat_id=53">Education</a><ul><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=17">Establishment of South Asian University</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=16">SAARC Chair, Fellowship and Scholarship Scheme</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=15">Open and Distance Learning</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=14">Committee of Heads of University Grants Commission/Equivalent Bodies</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=13">Culture</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=12">Education</a></li></ul></li><li><a href="http://www.saarc-sec.org/areaofcooperation/cat-detail.php?cat_id=55">Energy</a><ul><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=43">Fourth Meeting of SAARC Energy Ministers</a></li></ul></li><li><a href="http://www.saarc-sec.org/areaofcooperation/cat-detail.php?cat_id=54">Environment</a><ul><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=32">COP Meetings</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=28">South Asia Environment Outlook (SAEO) 2009 </a></li></ul></li><li><a href="http://www.saarc-sec.org/areaofcooperation/cat-detail.php?cat_id=48">Finance</a><ul><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=38">Financial Cooperation  </a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=37">SAARCFINANCE</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=33">Best Practices and Key Economic Indicators  </a></li></ul></li><li><a href="http://www.saarc-sec.org/areaofcooperation/cat-detail.php?cat_id=58">Funding Mechanism</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/cat-detail.php?cat_id=56">Information, Communication and Media</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/cat-detail.php?cat_id=52">People-to-People Contacts</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/cat-detail.php?cat_id=51">Poverty Alleviation</a><ul><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=27">Regional Poverty Profile</a></li></ul></li><li><a href="http://www.saarc-sec.org/areaofcooperation/cat-detail.php?cat_id=46">Science and Technology</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/cat-detail.php?cat_id=59">Security Aspects</a><ul><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=25">SAARC Coordination Group of Drug Law Enforcement Agencies</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=24">SAARC Terrorist Offences Monitoring Desk (STOMD)</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=23">SAARC Drug Offences Monitoring Desk (SDOMD)</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=22">SAARC Convention on Narcotic Drugs and Psychotropic Substances </a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=21">SAARC Regional Convention on Suppression of Terrorism and its Additional Protocol</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=20">SAARC Conference on Cooperation in Police Matters </a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=19">Meeting of the SAARC Interior/Home Ministers</a></li></ul></li><li><a href="http://www.saarc-sec.org/areaofcooperation/cat-detail.php?cat_id=50">Social Development</a><ul><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=52">Delhi Declaration on Public Health Challenges</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=11">Health</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=10">Gender related issues</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=9">Youth</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=8">Children</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=7">SAARC Social Charter</a></li><li><a href="http://www.saarc-sec.org/areaofcooperation/detail.php?activity_id=1">Saarc Gender Info Base</a></li></ul></li><li><a href="http://www.saarc-sec.org/areaofcooperation/cat-detail.php?cat_id=49">Tourism</a></li></ul></li><li><a href="http://www.saarc-sec.org/#"  >Agreements and Conventions</a><ul ><li><a href="http://www.saarc-sec.org/Agreements/69/"  >Agreements</a></li><li><a href="http://www.saarc-sec.org/SAARC-Conventions/63/"  >SAARC Conventions </a></li></ul></li><li><a href="http://www.saarc-sec.org/#"  >Declarations</a><ul ><li><a href="http://www.saarc-sec.org/Summit-Declarations/67/"  >Summit Declarations</a></li></ul></li><li><a href="http://www.saarc-sec.org/SAARC-Charter-of-Democracy/88/"  >SAARC Charter of Democracy</a></li><li><a href="http://www.saarc-sec.org/SAARC-Visa-Exemption-Scheme/100/"  >SAARC Visa Exemption Scheme</a></li><li><a href="http://www.saarc-sec.org/SAARC-Secretariat/18/"  >SAARC Secretariat</a><ul ><li><a href="http://www.saarc-sec.org/Secretary-General/104/"  >Secretary-General</a></li><li><a href="http://www.saarc-sec.org/#"  >Directors of the SAARC Secretariat</a><ul ><li><a href="http://www.saarc-sec.org/Mohamed-Ibrahim-Ghafoori/42/"  >Mohamed Ibrahim Ghafoori</a></li><li><a href="http://www.saarc-sec.org/MJH-Jabed/43/"  >MJH Jabed</a></li><li><a href="http://www.saarc-sec.org/Sangye-Rinchhen/44/"  >Sangye Rinchhen</a></li><li><a href="http://www.saarc-sec.org/L.-Savithri/45/"  >L. Savithri</a></li><li><a href="http://www.saarc-sec.org/Fathimath-Najwa/46/"  >Fathimath Najwa</a></li><li><a href="http://www.saarc-sec.org/Rita-Dhital/47/"  >Rita Dhital</a></li><li><a href="http://www.saarc-sec.org/Ali-Haider-Altaf/48/"  >Ali Haider Altaf</a></li><li><a href="http://www.saarc-sec.org/M.H.M.N.-Bandara/49/"  >M.H.M.N. Bandara</a></li></ul></li><li><a href="http://www.saarc-sec.org/Former-Secretaries-General/19/"  >Former Secretaries-General</a></li><li><a href="http://www.saarc-sec.org/Former-Directors/38/"  >Former Directors</a></li><li><a href="http://www.saarc-sec.org/Contacts/21/"  >Contacts</a></li></ul></li><li><a href="http://www.saarc-sec.org/SAARC-Cabinet-Secretaries-Meeting/116/"  >SAARC Cabinet Secretaries Meeting</a></li><li><a href="#"  >Monthly Upcoming Activities</a></li><li><a href="http://www.saarc-sec.org/publications"  >Publications</a></li><li><a href="http://www.saarc-sec.org/photo-gallery/index.php"  >Photo Gallery</a></li><li><a href="http://www.saarc-sec.org/multimedia"  >Video Gallery</a></li><li><a href="http://www.saarc-sec.org/announcements/"  >Announcements</a></li><li><a href="http://www.saarc-sec.org/press-releases"  >Press Releases</a></li><li><a href="http://www.saarc-sec.org/Public-Service-Commissions-of-SAARC-Member-States/110/"  >Public Service Commissions of SAARC Member States</a></li><li><a href="#"  >Links</a><ul ><li><a href="http://www.saarc-sec.org/Tender-Document/131/"  >Tender Document</a></li><li><a href="http://www.saarc-sec.org/The-South-Asia-Environment-Outlook-2014/126/"  >The South Asia Environment Outlook-2014 </a></li><li><a href="http://www.saarc-sec.org/SDF-Request-for-Proposal-for-Co-financing-of-Projects-under-the-Three-Funding-Windows-and-Consultancy-Works/132/"  >SDF-Request for Proposal for Co-financing of Projects under the Three Funding Windows and Consultancy Works</a></li><li><a href="http://www.saarc-sec.org/Scholarships/81/"  >Scholarships</a><ul ><li><a href="http://www.saarc-sec.org/20132014/112/"  >2013/2014</a></li><li><a href="http://www.saarc-sec.org/2015/123/"  >2015</a></li></ul></li><li><a href="http://www.saarc-sec.org/Request-for-Proposal-for-Risk-assessment-tools--Credit-Management-Software/80/"  >Request for Proposal for Risk assessment tools & Credit Management Software</a></li><li><a href="http://www.saarc-sec.org/SAARC-Regional-Center-Vacancies/40/"  >SAARC Regional Center Vacancies</a></li><li><a href="http://www.saarc-sec.org/Others/41/"  >Others</a></li></ul></li><li><a href="http://www.saarc-sec.org/vacancy"  >Vacancies</a></li></ul>  </div>
+  <div class="clear"></div>
+
+ <!-- advertisment starts-->
+  <div class="clear"></div>
+   
+</div>
+                <!--End of Left Container-->
+                <!--Right Container-->
+                <div class="right-container">
+
+                    <!--area of co-operation div start here-->
+                    
+
+
+
+                    				<!--latest update div start here-->
+
+<div class="update">
+    <div class="update-topbar"></div>
+
+    <div class="latest-update">
+
+        <h2>Public Service Commissions of SAARC Member States</h2>
+        <p class="graylink"><a href="#">Home » </a> Public Service Commissions of SAARC Member States
+</p>
+
+        <div id="ctrlContents" class="textNormal">
+            <p>
+	<strong>Afghanistan</strong></p>
+<p>
+	<span style="font-family: arial, sans-serif; font-size: 13px;">Secretariat of Independent Administrative reform &amp; Civil Service Commission</span></p>
+<p>
+	<span style="font-family: arial, sans-serif; font-size: 13px;">Kabul</span></p>
+<p>
+	<span style="font-family: arial, sans-serif; font-size: 13px;">Tel:&nbsp;</span><a href="tel:%2B93-20%20210%203966" style="color: rgb(17, 85, 204); font-family: arial, sans-serif; font-size: 13px;" target="_blank" value="+93202103966">+93-20 210 3966</a><br style="font-family: arial, sans-serif; font-size: 13px;" />
+	<span style="font-family: arial, sans-serif; font-size: 13px;">Web:&nbsp;</span><a href="http://www.iarcsc.gov.af/" style="color: rgb(17, 85, 204); font-family: arial, sans-serif; font-size: 13px;" target="_blank">www.iarcsc.gov.af</a><span style="font-family: arial, sans-serif; font-size: 13px;">&nbsp;</span></p>
+<p>
+	&nbsp;</p>
+<p>
+	<b>Bangladesh</b></p>
+<p class="p1">
+	<span class="s2">Bangladesh Public Service Commission</span></p>
+<p class="p1">
+	<span class="s2">Old Airport Building, Tejgaon, Dhaka-1215</span></p>
+<p class="p1">
+	<span class="s2">Tel: +88-02-9117265</span></p>
+<p class="p1">
+	<span class="s2">Fax: +88-02-8158495</span></p>
+<p class="p1">
+	<span class="s2">Web: <a href="http://www.bpsc.gov.bd" target="_blank">http://www.bpsc.gov.bd</a></span></p>
+<p class="p1">
+	&nbsp;</p>
+<p class="p1">
+	<span class="s1"><b>Bhutan</b></span></p>
+<p class="p1">
+	<span class="s2">Policy and Planning, Royal Civil Service Commission</span></p>
+<p class="p1">
+	<span class="s2">P.O.Box: 163</span></p>
+<p class="p1">
+	<span class="s2">Tel:<span class="Apple-tab-span"> </span>+975-02-324559</span></p>
+<p class="p1">
+	<span class="s2">Fax: <span class="Apple-tab-span"> </span>+975-02-323086</span></p>
+<p class="p3">
+	<span class="s3">Web: <span class="s1"><a href="http://www.rcsc.gov.bt">www.rcsc.gov.bt</a></span></span></p>
+<p class="p2">
+	&nbsp;</p>
+<p class="p1">
+	<span class="s1"><b>India</b></span></p>
+<p class="p1">
+	<span class="s2">UPSC, 1</span><span class="s4"><sup>st</sup></span><span class="s2"> Floor, Dholpur House,</span></p>
+<p class="p1">
+	<span class="s2">Shahjahan Road, New Delhi-110069</span></p>
+<p class="p1">
+	<span class="s2">Tel: +91-11-23381440</span></p>
+<p class="p3">
+	<span class="s3">Web: <span class="s1"><a href="http://www.upsc.gov.in">www.upsc.gov.in</a></span></span></p>
+<p class="p2">
+	&nbsp;</p>
+<p class="p1">
+	<span class="s1"><b>Maldives</b></span></p>
+<p class="p2">
+	Civil Service Commission</p>
+<p class="p1">
+	<span class="s2">Tel: +960-3307363, Fax: +960-3303648</span></p>
+<p class="p3">
+	<span class="s3">Web: <span class="s1"><a href="http://www.csc.gov.mv/">www.csc.gov.mv</a></span></span></p>
+<p class="p2">
+	&nbsp;</p>
+<p class="p1">
+	<span class="s1"><b>Nepal</b></span></p>
+<p class="p1">
+	<span class="s2">Public Service Commission, Central Office</span></p>
+<p class="p1">
+	<span class="s2">Contact: +977-1-4771355</span></p>
+<p class="p1">
+	Web:&nbsp;<a href="http://www.psc.gov.np">www.psc.gov.np</a></p>
+<p class="p2">
+	&nbsp;</p>
+<p class="p1">
+	<span class="s1"><b>Pakistan</b></span></p>
+<p class="p1">
+	<span class="s2">FPSC, Aga Khan Road, Sector: F-5/1. Islamabad</span></p>
+<p class="p1">
+	<span class="s2">Tel: +92-51-9212297</span></p>
+<p class="p1">
+	<span class="s2">Fax: +92-51-9213386</span></p>
+<p class="p3">
+	<span class="s3">Web: <a href="http://www.fpsc.gov.pk"><span class="s1">www.fpsc.gov.pk</span></a>&nbsp;</span></p>
+<p class="p2">
+	&nbsp;</p>
+<p class="p1">
+	<span class="s1"><b>Sri Lanka</b></span></p>
+<p class="p2">
+	Public Service Commission</p>
+<p class="p1">
+	<span class="s2">No. 177, Nawala Road, Narahenpita</span></p>
+<p class="p1">
+	<span class="s2">Colombo 05, Sri Lanka</span></p>
+<p class="p1">
+	<span class="s2">Tel: +94-11-2136602, &nbsp;Fax: +94-11-2369302</span></p>
+<p class="p3">
+	<span class="s3">Web: <a href="http://www.psc.gov.lk"><span class="s1">www.psc.gov.lk</span></a>&nbsp;</span></p>
+<p class="p3">
+	&nbsp;</p>
+<p>
+	<strong><a href="http://www.saarc-sec.org/uploads/publications/file/Comparative%20Study%20on%20Public%20Service%20Commissions%20(Published%20Copy)_20150423120150.doc"><em>Comparative Study of Public / Civil Service Commissions of SAARC Member States</em></a></strong></p>
+        </div>
+
+
+
+    </div>
+</div>
+<!--End of latest update div-->
+<div class="clear"></div>
+<!--End of Right Container-->
+</div>
+<!--End of Container-->
+<div id="Footer">
+    <div id="stat-counter">
+        No. of Hits:  <!-- Start of StatCounter Code -->
+        <script type="text/javascript">
+            var sc_project=5791002;
+            var sc_invisible=0;
+            var sc_security="a4545236";
+        </script>
+
+        <script type="text/javascript"
+        src="http://www.statcounter.com/counter/counter.js"></script><noscript><div
+                class="statcounter"><a title="counter on tumblr"
+                                   href="http://www.statcounter.com/tumblr/"
+                                   target="_blank"><img class="statcounter"
+                                     src="http://c.statcounter.com/5791002/0/a4545236/0/"
+                                     alt="counter on tumblr" ></a></div></noscript>
+        <!-- End of StatCounter Code -->
+
+    </div>
+    <div class="clear"></div>
+    
+	<div class="inner-footer">
+        
+		<div style="float: left; width: 280px;"></div>
+
+		<div style="float: right; width: 650px;"><p>&copy; Copyright 2009 SAARC. All Rights Reserved. </p>
+        <p>SAARC Secretariat, PO Box 4222, Tridevi Marg, Kathmandu, Nepal.</p>
+        <p>Tel: +977 1 4221785, 4226350, 423134, 4221411.  Fax: +977 1 4227033, 4223991 </p>
+        <p><a href="http://www.saarc-sec.org/">Home</a> | <a href="http://www.saarc-sec.org/SAARC-Secretariat/18/">About Secretariat</a> | <a href="http://www.saarc-sec.org/photo-gallery/">Photo Gallery</a> | <a href="http://www.saarc-sec.org/Contacts/21/">Contact Us</a> | <a href="http://www.saarc-sec.org/feedback/frmFeedback.php" title="Feedback" rel="facebox[.bolder]">Feedback</a> | <a href="http://www.saarc-sec.org/disclaimer.php" title="Disclaimer">Disclaimer</a></p></div>
+    </div>
+</div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+                  
+              });
+</script>
+<!--End of Wrapper-->
+</body></html>

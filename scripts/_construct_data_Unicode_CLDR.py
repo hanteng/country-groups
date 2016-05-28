@@ -4,6 +4,7 @@ import os.path, glob
 import json
 import requests
 import pandas as pd
+import codecs
 
 # Data source 
 URL_ = "https://raw.githubusercontent.com/unicode-cldr/cldr-core/master/supplemental/territoryContainment.json"
@@ -15,7 +16,7 @@ path_data = u'../data'
 outputfn1 = os.path.join(path_data, "CLDR_all.tsv")
 outputfn2 = os.path.join(path_data, "CLDR_UN_region.tsv")
 outputfn3 = os.path.join(path_data, "CLDR_UN_region_names_{locale}.tsv")
-
+outputfn4 = os.path.join(path_data, "PE_org.json")
 
 def url_request (url):
     r = requests.get(url)
@@ -62,16 +63,13 @@ for i, k in enumerate(results['territoryContainment'].keys()):
 columns_order = ['i_group', 'code', 'code_contained', 'status', '_grouping']
 df[columns_order].to_csv(outputfn1, sep='\t', encoding='utf-8',  header = True, index = False)
 
-
 ## Generating a table with UN M.49 regions and subregions.
 
 code_start = "001"
 query_temp = 'code=="{code}" and status==""'
 
-
 def next_level(c):
     return list(df.query(query_temp.format(code=c))['code_contained'].sort_values())
-
 
 df_w = pd.DataFrame()
 for i in next_level("001"):
@@ -106,4 +104,12 @@ for locale in locale_s:
 
     df_w.to_csv(outputfn3.format(locale=locale), sep='\t', encoding='utf-8',  header = True, index = False)
 
+
+## Generating a table with EU countries.
+PE_org = dict() # PE_org: Political and economic organization
+PE_org ['EU'] = list(df.query(query_temp.format(code='EU'))['code_contained'])
+
+with codecs.open(outputfn4, encoding='utf-8', mode='w+') as fp:
+    data = PE_org
+    json.dump(data, fp)
 
