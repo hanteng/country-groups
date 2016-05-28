@@ -1,0 +1,257 @@
+ccode	rcode_sub	rcode	cname	r_sub	rname
+BF	011	002	Burkina Faso	Afrique occidentale	Afrique
+BJ	011	002	Bénin	Afrique occidentale	Afrique
+CI	011	002	Côte d’Ivoire	Afrique occidentale	Afrique
+CV	011	002	Cap-Vert	Afrique occidentale	Afrique
+GH	011	002	Ghana	Afrique occidentale	Afrique
+GM	011	002	Gambie	Afrique occidentale	Afrique
+GN	011	002	Guinée	Afrique occidentale	Afrique
+GW	011	002	Guinée-Bissau	Afrique occidentale	Afrique
+LR	011	002	Libéria	Afrique occidentale	Afrique
+ML	011	002	Mali	Afrique occidentale	Afrique
+MR	011	002	Mauritanie	Afrique occidentale	Afrique
+NE	011	002	Niger	Afrique occidentale	Afrique
+NG	011	002	Nigéria	Afrique occidentale	Afrique
+SH	011	002	Sainte-Hélène	Afrique occidentale	Afrique
+SL	011	002	Sierra Leone	Afrique occidentale	Afrique
+SN	011	002	Sénégal	Afrique occidentale	Afrique
+TG	011	002	Togo	Afrique occidentale	Afrique
+BI	014	002	Burundi	Afrique orientale	Afrique
+DJ	014	002	Djibouti	Afrique orientale	Afrique
+ER	014	002	Érythrée	Afrique orientale	Afrique
+ET	014	002	Éthiopie	Afrique orientale	Afrique
+KE	014	002	Kenya	Afrique orientale	Afrique
+KM	014	002	Comores	Afrique orientale	Afrique
+MG	014	002	Madagascar	Afrique orientale	Afrique
+MU	014	002	Maurice	Afrique orientale	Afrique
+MW	014	002	Malawi	Afrique orientale	Afrique
+MZ	014	002	Mozambique	Afrique orientale	Afrique
+RE	014	002	La Réunion	Afrique orientale	Afrique
+RW	014	002	Rwanda	Afrique orientale	Afrique
+SC	014	002	Seychelles	Afrique orientale	Afrique
+SO	014	002	Somalie	Afrique orientale	Afrique
+SS	014	002	Soudan du Sud	Afrique orientale	Afrique
+TZ	014	002	Tanzanie	Afrique orientale	Afrique
+UG	014	002	Ouganda	Afrique orientale	Afrique
+YT	014	002	Mayotte	Afrique orientale	Afrique
+ZM	014	002	Zambie	Afrique orientale	Afrique
+ZW	014	002	Zimbabwe	Afrique orientale	Afrique
+DZ	015	002	Algérie	Afrique septentrionale	Afrique
+EA	015	002	Ceuta et Melilla	Afrique septentrionale	Afrique
+EG	015	002	Égypte	Afrique septentrionale	Afrique
+EH	015	002	Sahara occidental	Afrique septentrionale	Afrique
+IC	015	002	Îles Canaries	Afrique septentrionale	Afrique
+LY	015	002	Libye	Afrique septentrionale	Afrique
+MA	015	002	Maroc	Afrique septentrionale	Afrique
+SD	015	002	Soudan	Afrique septentrionale	Afrique
+TN	015	002	Tunisie	Afrique septentrionale	Afrique
+AO	017	002	Angola	Afrique centrale	Afrique
+CD	017	002	Congo-Kinshasa	Afrique centrale	Afrique
+CF	017	002	République centrafricaine	Afrique centrale	Afrique
+CG	017	002	Congo-Brazzaville	Afrique centrale	Afrique
+CM	017	002	Cameroun	Afrique centrale	Afrique
+GA	017	002	Gabon	Afrique centrale	Afrique
+GQ	017	002	Guinée équatoriale	Afrique centrale	Afrique
+ST	017	002	Sao Tomé-et-Principe	Afrique centrale	Afrique
+TD	017	002	Tchad	Afrique centrale	Afrique
+BW	018	002	Botswana	Afrique australe	Afrique
+LS	018	002	Lesotho	Afrique australe	Afrique
+NA	018	002	Namibie	Afrique australe	Afrique
+SZ	018	002	Swaziland	Afrique australe	Afrique
+ZA	018	002	Afrique du Sud	Afrique australe	Afrique
+AU	053	009	Australie	Australasie	Océanie
+NF	053	009	Île Norfolk	Australasie	Océanie
+NZ	053	009	Nouvelle-Zélande	Australasie	Océanie
+FJ	054	009	Fidji	Mélanésie	Océanie
+NC	054	009	Nouvelle-Calédonie	Mélanésie	Océanie
+PG	054	009	Papouasie-Nouvelle-Guinée	Mélanésie	Océanie
+SB	054	009	Îles Salomon	Mélanésie	Océanie
+VU	054	009	Vanuatu	Mélanésie	Océanie
+FM	057	009	États fédérés de Micronésie	région micronésienne	Océanie
+GU	057	009	Guam	région micronésienne	Océanie
+KI	057	009	Kiribati	région micronésienne	Océanie
+MH	057	009	Îles Marshall	région micronésienne	Océanie
+MP	057	009	Îles Mariannes du Nord	région micronésienne	Océanie
+NR	057	009	Nauru	région micronésienne	Océanie
+PW	057	009	Palaos	région micronésienne	Océanie
+AS	061	009	Samoa américaines	Polynésie	Océanie
+CK	061	009	Îles Cook	Polynésie	Océanie
+NU	061	009	Niue	Polynésie	Océanie
+PF	061	009	Polynésie française	Polynésie	Océanie
+PN	061	009	Îles Pitcairn	Polynésie	Océanie
+TK	061	009	Tokélaou	Polynésie	Océanie
+TO	061	009	Tonga	Polynésie	Océanie
+TV	061	009	Tuvalu	Polynésie	Océanie
+WF	061	009	Wallis-et-Futuna	Polynésie	Océanie
+WS	061	009	Samoa	Polynésie	Océanie
+AC	QO	009	Île de l’Ascension	régions éloignées de l’Océanie	Océanie
+AQ	QO	009	Antarctique	régions éloignées de l’Océanie	Océanie
+BV	QO	009	Île Bouvet	régions éloignées de l’Océanie	Océanie
+CC	QO	009	Îles Cocos	régions éloignées de l’Océanie	Océanie
+CP	QO	009	Île Clipperton	régions éloignées de l’Océanie	Océanie
+CX	QO	009	Île Christmas	régions éloignées de l’Océanie	Océanie
+DG	QO	009	Diego Garcia	régions éloignées de l’Océanie	Océanie
+GS	QO	009	Géorgie du Sud et îles Sandwich du Sud	régions éloignées de l’Océanie	Océanie
+HM	QO	009	Îles Heard et McDonald	régions éloignées de l’Océanie	Océanie
+IO	QO	009	Territoire britannique de l’océan Indien	régions éloignées de l’Océanie	Océanie
+TA	QO	009	Tristan da Cunha	régions éloignées de l’Océanie	Océanie
+TF	QO	009	Terres australes françaises	régions éloignées de l’Océanie	Océanie
+UM	QO	009	Îles mineures éloignées des États-Unis	régions éloignées de l’Océanie	Océanie
+AR	005	019	Argentine	Amérique du Sud	Amériques
+BO	005	019	Bolivie	Amérique du Sud	Amériques
+BR	005	019	Brésil	Amérique du Sud	Amériques
+CL	005	019	Chili	Amérique du Sud	Amériques
+CO	005	019	Colombie	Amérique du Sud	Amériques
+EC	005	019	Équateur	Amérique du Sud	Amériques
+FK	005	019	Îles Malouines	Amérique du Sud	Amériques
+GF	005	019	Guyane française	Amérique du Sud	Amériques
+GY	005	019	Guyana	Amérique du Sud	Amériques
+PE	005	019	Pérou	Amérique du Sud	Amériques
+PY	005	019	Paraguay	Amérique du Sud	Amériques
+SR	005	019	Suriname	Amérique du Sud	Amériques
+UY	005	019	Uruguay	Amérique du Sud	Amériques
+VE	005	019	Venezuela	Amérique du Sud	Amériques
+BZ	013	019	Belize	Amérique centrale	Amériques
+CR	013	019	Costa Rica	Amérique centrale	Amériques
+GT	013	019	Guatemala	Amérique centrale	Amériques
+HN	013	019	Honduras	Amérique centrale	Amériques
+MX	013	019	Mexique	Amérique centrale	Amériques
+NI	013	019	Nicaragua	Amérique centrale	Amériques
+PA	013	019	Panama	Amérique centrale	Amériques
+SV	013	019	El Salvador	Amérique centrale	Amériques
+BM	021	019	Bermudes	Amérique septentrionale	Amériques
+CA	021	019	Canada	Amérique septentrionale	Amériques
+GL	021	019	Groenland	Amérique septentrionale	Amériques
+PM	021	019	Saint-Pierre-et-Miquelon	Amérique septentrionale	Amériques
+US	021	019	É.-U.	Amérique septentrionale	Amériques
+AG	029	019	Antigua-et-Barbuda	Caraïbes	Amériques
+AI	029	019	Anguilla	Caraïbes	Amériques
+AW	029	019	Aruba	Caraïbes	Amériques
+BB	029	019	Barbade	Caraïbes	Amériques
+BL	029	019	Saint-Barthélemy	Caraïbes	Amériques
+BQ	029	019	Pays-Bas caribéens	Caraïbes	Amériques
+BS	029	019	Bahamas	Caraïbes	Amériques
+CU	029	019	Cuba	Caraïbes	Amériques
+CW	029	019	Curaçao	Caraïbes	Amériques
+DM	029	019	Dominique	Caraïbes	Amériques
+DO	029	019	République dominicaine	Caraïbes	Amériques
+GD	029	019	Grenade	Caraïbes	Amériques
+GP	029	019	Guadeloupe	Caraïbes	Amériques
+HT	029	019	Haïti	Caraïbes	Amériques
+JM	029	019	Jamaïque	Caraïbes	Amériques
+KN	029	019	Saint-Christophe-et-Niévès	Caraïbes	Amériques
+KY	029	019	Îles Caïmans	Caraïbes	Amériques
+LC	029	019	Sainte-Lucie	Caraïbes	Amériques
+MF	029	019	Saint-Martin	Caraïbes	Amériques
+MQ	029	019	Martinique	Caraïbes	Amériques
+MS	029	019	Montserrat	Caraïbes	Amériques
+PR	029	019	Porto Rico	Caraïbes	Amériques
+SX	029	019	Saint-Martin (partie néerlandaise)	Caraïbes	Amériques
+TC	029	019	Îles Turques-et-Caïques	Caraïbes	Amériques
+TT	029	019	Trinité-et-Tobago	Caraïbes	Amériques
+VC	029	019	Saint-Vincent-et-les-Grenadines	Caraïbes	Amériques
+VG	029	019	Îles Vierges britanniques	Caraïbes	Amériques
+VI	029	019	Îles Vierges des États-Unis	Caraïbes	Amériques
+CN	030	142	Chine	Asie orientale	Asie
+HK	030	142	Hong Kong	Asie orientale	Asie
+JP	030	142	Japon	Asie orientale	Asie
+KP	030	142	Corée du Nord	Asie orientale	Asie
+KR	030	142	Corée du Sud	Asie orientale	Asie
+MN	030	142	Mongolie	Asie orientale	Asie
+MO	030	142	Macao	Asie orientale	Asie
+TW	030	142	Taïwan	Asie orientale	Asie
+AF	034	142	Afghanistan	Asie du Sud	Asie
+BD	034	142	Bangladesh	Asie du Sud	Asie
+BT	034	142	Bhoutan	Asie du Sud	Asie
+IN	034	142	Inde	Asie du Sud	Asie
+IR	034	142	Iran	Asie du Sud	Asie
+LK	034	142	Sri Lanka	Asie du Sud	Asie
+MV	034	142	Maldives	Asie du Sud	Asie
+NP	034	142	Népal	Asie du Sud	Asie
+PK	034	142	Pakistan	Asie du Sud	Asie
+BN	035	142	Brunéi Darussalam	Asie du Sud-Est	Asie
+ID	035	142	Indonésie	Asie du Sud-Est	Asie
+KH	035	142	Cambodge	Asie du Sud-Est	Asie
+LA	035	142	Laos	Asie du Sud-Est	Asie
+MM	035	142	Myanmar (Birmanie)	Asie du Sud-Est	Asie
+MY	035	142	Malaisie	Asie du Sud-Est	Asie
+PH	035	142	Philippines	Asie du Sud-Est	Asie
+SG	035	142	Singapour	Asie du Sud-Est	Asie
+TH	035	142	Thaïlande	Asie du Sud-Est	Asie
+TL	035	142	Timor oriental	Asie du Sud-Est	Asie
+VN	035	142	Vietnam	Asie du Sud-Est	Asie
+KG	143	142	Kirghizistan	Asie centrale	Asie
+KZ	143	142	Kazakhstan	Asie centrale	Asie
+TJ	143	142	Tadjikistan	Asie centrale	Asie
+TM	143	142	Turkménistan	Asie centrale	Asie
+UZ	143	142	Ouzbékistan	Asie centrale	Asie
+AE	145	142	Émirats arabes unis	Asie occidentale	Asie
+AM	145	142	Arménie	Asie occidentale	Asie
+AZ	145	142	Azerbaïdjan	Asie occidentale	Asie
+BH	145	142	Bahreïn	Asie occidentale	Asie
+CY	145	142	Chypre	Asie occidentale	Asie
+GE	145	142	Géorgie	Asie occidentale	Asie
+IL	145	142	Israël	Asie occidentale	Asie
+IQ	145	142	Irak	Asie occidentale	Asie
+JO	145	142	Jordanie	Asie occidentale	Asie
+KW	145	142	Koweït	Asie occidentale	Asie
+LB	145	142	Liban	Asie occidentale	Asie
+OM	145	142	Oman	Asie occidentale	Asie
+PS	145	142	Palestine	Asie occidentale	Asie
+QA	145	142	Qatar	Asie occidentale	Asie
+SA	145	142	Arabie saoudite	Asie occidentale	Asie
+SY	145	142	Syrie	Asie occidentale	Asie
+TR	145	142	Turquie	Asie occidentale	Asie
+YE	145	142	Yémen	Asie occidentale	Asie
+AD	039	150	Andorre	Europe méridionale	Europe
+AL	039	150	Albanie	Europe méridionale	Europe
+BA	039	150	Bosnie-Herzégovine	Europe méridionale	Europe
+ES	039	150	Espagne	Europe méridionale	Europe
+GI	039	150	Gibraltar	Europe méridionale	Europe
+GR	039	150	Grèce	Europe méridionale	Europe
+HR	039	150	Croatie	Europe méridionale	Europe
+IT	039	150	Italie	Europe méridionale	Europe
+ME	039	150	Monténégro	Europe méridionale	Europe
+MK	039	150	Macédoine	Europe méridionale	Europe
+MT	039	150	Malte	Europe méridionale	Europe
+PT	039	150	Portugal	Europe méridionale	Europe
+RS	039	150	Serbie	Europe méridionale	Europe
+SI	039	150	Slovénie	Europe méridionale	Europe
+SM	039	150	Saint-Marin	Europe méridionale	Europe
+VA	039	150	État de la Cité du Vatican	Europe méridionale	Europe
+XK	039	150	Kosovo	Europe méridionale	Europe
+BG	151	150	Bulgarie	Europe de l’Est	Europe
+BY	151	150	Biélorussie	Europe de l’Est	Europe
+CZ	151	150	République tchèque	Europe de l’Est	Europe
+HU	151	150	Hongrie	Europe de l’Est	Europe
+MD	151	150	Moldavie	Europe de l’Est	Europe
+PL	151	150	Pologne	Europe de l’Est	Europe
+RO	151	150	Roumanie	Europe de l’Est	Europe
+RU	151	150	Russie	Europe de l’Est	Europe
+SK	151	150	Slovaquie	Europe de l’Est	Europe
+UA	151	150	Ukraine	Europe de l’Est	Europe
+AX	154	150	Îles Åland	Europe septentrionale	Europe
+DK	154	150	Danemark	Europe septentrionale	Europe
+EE	154	150	Estonie	Europe septentrionale	Europe
+FI	154	150	Finlande	Europe septentrionale	Europe
+FO	154	150	Îles Féroé	Europe septentrionale	Europe
+GB	154	150	R.-U.	Europe septentrionale	Europe
+GG	154	150	Guernesey	Europe septentrionale	Europe
+IE	154	150	Irlande	Europe septentrionale	Europe
+IM	154	150	Île de Man	Europe septentrionale	Europe
+IS	154	150	Islande	Europe septentrionale	Europe
+JE	154	150	Jersey	Europe septentrionale	Europe
+LT	154	150	Lituanie	Europe septentrionale	Europe
+LV	154	150	Lettonie	Europe septentrionale	Europe
+NO	154	150	Norvège	Europe septentrionale	Europe
+SE	154	150	Suède	Europe septentrionale	Europe
+SJ	154	150	Svalbard et Jan Mayen	Europe septentrionale	Europe
+AT	155	150	Autriche	Europe occidentale	Europe
+BE	155	150	Belgique	Europe occidentale	Europe
+CH	155	150	Suisse	Europe occidentale	Europe
+DE	155	150	Allemagne	Europe occidentale	Europe
+FR	155	150	France	Europe occidentale	Europe
+LI	155	150	Liechtenstein	Europe occidentale	Europe
+LU	155	150	Luxembourg	Europe occidentale	Europe
+MC	155	150	Monaco	Europe occidentale	Europe
+NL	155	150	Pays-Bas	Europe occidentale	Europe
