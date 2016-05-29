@@ -1,3 +1,8 @@
+# Data source htm archive
+data/*.htm
+data/*.html
+
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
