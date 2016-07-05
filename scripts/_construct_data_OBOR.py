@@ -18,7 +18,7 @@ URL_country_names = URL_country_names_template.format(locale= 'en')
 
 
 ## Outpuing Lists
-PE = 'META'
+PE = 'OBOR'
 path_data = u'../data'
 outputfn1 = os.path.join(path_data, "PE_org.json")
 outputfn2 = os.path.join(path_data, "CLDR_UN_region.tsv")
